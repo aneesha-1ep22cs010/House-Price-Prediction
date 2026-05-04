@@ -19,4 +19,23 @@ Built as part of my internship, this project predicts residential house prices u
 
 ![Actual vs Predicted Prices](results_plot.png)
 
-## 📈 Model Performance
+## 🌐 Web Application Interface
+
+I developed an interactive web dashboard using **Streamlit** to allow users to input property details and receive instant price predictions.
+
+### ✨ Features:
+
+- **Interactive Sliders:** Adjust house quality and square footage.
+- **Real-time Prediction:** Instant market value estimation using the trained model.
+- **Custom UI:** A premium dark-themed interface designed for real estate professionals.
+
+### 📸 Preview:
+
+![Web App Preview](webapp_preview.jpeg)
+
+### 🛠️ How to Launch the App:
+
+1. Ensure you have the dependencies installed:
+   ```powershell
+   pip install streamlit joblib
+   ```
